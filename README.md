@@ -27,15 +27,15 @@ Tech Stack
 - **Django REST Framework**
 - **SQLite3 (local)**
 
----
+```Frontend
 
-Frontend
 npm create vite@latest habit-hero-frontend
 cd habit-hero-frontend
 npm install
 npm install axios react-router-dom
 npm run build
 npm run dev
+```
 
 ```Backend
 git clone https://github.com/nandanbhandary1/Habit_Hero-backend.git
