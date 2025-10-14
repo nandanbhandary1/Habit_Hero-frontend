@@ -60,7 +60,6 @@ function App() {
     }
   };
 
-  // ✅ NEW FUNCTION: Toggle Completion Status
   const handleToggleComplete = async (habit) => {
     try {
       await axios.patch(`${API_URL}${habit.id}/`, {
@@ -149,4 +148,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
